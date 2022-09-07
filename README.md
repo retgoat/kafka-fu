@@ -41,4 +41,14 @@ curl --location --request POST 'http://localhost:3000/email' \
 ```
 
 
+## Troubleshooting
+Sometimes errors like `java.io.IOException: No space left on device` happened.
+Fix is simple — prune everything and re-build containers
+
+```
+docker system prune -a -f --volumes
+...
+docker-compose up
+```
+
 
