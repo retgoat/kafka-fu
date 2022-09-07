@@ -50,5 +50,7 @@ docker system prune -a -f --volumes
 ...
 docker-compose up
 ```
+Also you can increase storage volume https://stackoverflow.com/questions/37645879/how-can-i-fix-docker-mac-no-space-left-on-device-error
+
 
 
